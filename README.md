@@ -1,27 +1,25 @@
-# Generátor faktur
+# Invoice Generator
 
 **Live:** [https://invo.lastivka.xyz](https://invo.lastivka.xyz)
 
-Frontend aplikace pro generování PDF faktur. Veškerá data se ukládají v `localStorage` prohlížeče.
+Frontend app for generating PDF invoices. All data is stored in the browser's `localStorage`.
 
 ## Stack
 
 - Vue 3 (Composition API, `<script setup>`)
 - Vite 6
-- vue-i18n (čeština / angličtina)
-- `window.print()` pro export do PDF
+- vue-i18n (Czech / English)
+- `window.print()` for PDF export
 
-## Vývoj
+## Development
 
 ```bash
 yarn install
 yarn dev
 ```
 
-## Produkce (Docker)
+## Production (Docker)
 
 ```bash
 docker compose up -d --build
 ```
-
-Kontejner běží na portu `8081`. Na serveru je potřeba reverse proxy (Caddy / Nginx) pro směrování domény `invo.lastivka.xyz` → `localhost:8081`.
