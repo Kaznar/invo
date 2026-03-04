@@ -1,0 +1,6 @@
+services:
+  invo-generator:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "8081:80"

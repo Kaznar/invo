@@ -1,0 +1,118 @@
+{
+  "appTitle": "Invoice Generator",
+  "exportPdf": "Export PDF",
+  "previewEmpty": "Fill in the form to see the invoice preview.",
+  "resetData": "Reset data",
+  "resetConfirm": "Are you sure you want to delete all data and restore defaults?",
+
+  "supplier": {
+    "legend": "Supplier",
+    "name": "Name",
+    "namePlaceholder": "John Doe",
+    "address": "Street",
+    "addressPlaceholder": "Main St 123",
+    "city": "City",
+    "cityPlaceholder": "Prague",
+    "zip": "ZIP",
+    "zipPlaceholder": "110 00",
+    "country": "Country",
+    "countryPlaceholder": "Czech Republic",
+    "ico": "Company ID",
+    "icoPlaceholder": "12345678",
+    "dic": "Tax ID",
+    "dicPlaceholder": "CZ12345678",
+    "vatPayer": "VAT payer",
+    "notVatPayer": "Not a VAT payer",
+    "email": "Email",
+    "emailPlaceholder": "john{'@'}example.com",
+    "phone": "Phone",
+    "phonePlaceholder": "+420 123 456 789",
+    "bankAccount": "Bank account",
+    "bankAccountPlaceholder": "1234567890/0100"
+  },
+
+  "customer": {
+    "legend": "Customer",
+    "name": "Name",
+    "namePlaceholder": "Company Ltd.",
+    "address": "Street",
+    "addressPlaceholder": "Business Ave 56",
+    "city": "City",
+    "cityPlaceholder": "Brno",
+    "zip": "ZIP",
+    "zipPlaceholder": "602 00",
+    "country": "Country",
+    "countryPlaceholder": "Czech Republic",
+    "ico": "Company ID",
+    "icoPlaceholder": "87654321",
+    "dic": "Tax ID",
+    "dicPlaceholder": "CZ87654321"
+  },
+
+  "invoice": {
+    "legend": "Invoice Settings",
+    "number": "Invoice number",
+    "numberPlaceholder": "20260001",
+    "issueDate": "Issue date",
+    "issueDatePlaceholder": "2026-01-31",
+    "dueDate": "Due date",
+    "dueDatePlaceholder": "2026-02-14",
+    "symbol": "Symbol",
+    "symbolPlaceholder": "1289202601",
+    "variableSymbol": "Variable symbol",
+    "variableSymbolPlaceholder": "20260001",
+    "constantSymbol": "Constant symbol",
+    "constantSymbolPlaceholder": "0308",
+    "paymentMethod": "Payment method",
+    "paymentMethods": {
+      "transfer": "Bank transfer",
+      "cash": "Cash",
+      "card": "Card"
+    }
+  },
+
+  "items": {
+    "legend": "Invoice Items",
+    "add": "+ Add item",
+    "description": "Description",
+    "descriptionPlaceholder": "Programming",
+    "quantity": "Qty",
+    "unit": "Unit",
+    "unitPrice": "Unit price",
+    "total": "Total"
+  },
+
+  "note": {
+    "legend": "Note",
+    "label": "Text above items",
+    "placeholder": "Invoice for January 2026"
+  },
+
+  "preview": {
+    "invoiceTitle": "Invoice",
+    "supplier": "Supplier",
+    "customer": "Customer",
+    "contactInfo": "Contact information",
+    "issueDate": "Issue date:",
+    "dueDate": "Due date:",
+    "bankAccount": "Bank account",
+    "symbol": "Symbol",
+    "variableSymbol": "variable:",
+    "constantSymbol": "constant:",
+    "paymentMethod": "Payment method",
+    "itemDescription": "Description",
+    "itemQuantity": "Qty",
+    "itemUnit": "Unit",
+    "itemUnitPrice": "Unit price",
+    "itemTotal": "Total",
+    "totalDue": "Total due:",
+    "sectionId": "IDENTIFICATION",
+    "sectionPayment": "PAYMENT DETAILS",
+    "sectionItems": "INVOICED ITEMS",
+    "sectionSummary": "SUMMARY",
+    "currency": "CZK",
+    "transfer": "Bank transfer",
+    "cash": "Cash",
+    "card": "Card"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "appTitle": "Generátor faktur",
+  "exportPdf": "Exportovat PDF",
+  "previewEmpty": "Vyplňte formulář pro zobrazení náhledu faktury.",
+  "resetData": "Obnovit výchozí data",
+  "resetConfirm": "Opravdu chcete smazat všechna data a obnovit výchozí hodnoty?",
+
+  "supplier": {
+    "legend": "Dodavatel",
+    "name": "Název / Jméno",
+    "namePlaceholder": "Jan Novák",
+    "address": "Ulice a č.p.",
+    "addressPlaceholder": "Hlavní 123/4",
+    "city": "Město",
+    "cityPlaceholder": "Praha",
+    "zip": "PSČ",
+    "zipPlaceholder": "110 00",
+    "country": "Země",
+    "countryPlaceholder": "Česká republika",
+    "ico": "IČ",
+    "icoPlaceholder": "12345678",
+    "dic": "DIČ",
+    "dicPlaceholder": "CZ12345678",
+    "vatPayer": "Plátce DPH",
+    "notVatPayer": "Nejsme plátci DPH",
+    "email": "E-mail",
+    "emailPlaceholder": "jan{'@'}example.com",
+    "phone": "Telefon",
+    "phonePlaceholder": "+420 123 456 789",
+    "bankAccount": "Bankovní účet",
+    "bankAccountPlaceholder": "1234567890/0100"
+  },
+
+  "customer": {
+    "legend": "Odběratel",
+    "name": "Název / Jméno",
+    "namePlaceholder": "Firma s.r.o.",
+    "address": "Ulice a č.p.",
+    "addressPlaceholder": "Podnikatelská 56/7",
+    "city": "Město",
+    "cityPlaceholder": "Brno",
+    "zip": "PSČ",
+    "zipPlaceholder": "602 00",
+    "country": "Země",
+    "countryPlaceholder": "Česká republika",
+    "ico": "IČ",
+    "icoPlaceholder": "87654321",
+    "dic": "DIČ",
+    "dicPlaceholder": "CZ87654321"
+  },
+
+  "invoice": {
+    "legend": "Nastavení faktury",
+    "number": "Číslo faktury",
+    "numberPlaceholder": "20260001",
+    "issueDate": "Datum vystavení",
+    "issueDatePlaceholder": "31.01.2026",
+    "dueDate": "Datum splatnosti",
+    "dueDatePlaceholder": "14.02.2026",
+    "symbol": "Symbol",
+    "symbolPlaceholder": "1289202601",
+    "variableSymbol": "Variabilní symbol",
+    "variableSymbolPlaceholder": "20260001",
+    "constantSymbol": "Konstantní symbol",
+    "constantSymbolPlaceholder": "0308",
+    "paymentMethod": "Způsob platby",
+    "paymentMethods": {
+      "transfer": "Převodem",
+      "cash": "Hotově",
+      "card": "Kartou"
+    }
+  },
+
+  "items": {
+    "legend": "Položky faktury",
+    "add": "+ Přidat položku",
+    "description": "Označení dodávky",
+    "descriptionPlaceholder": "Programování",
+    "quantity": "Počet",
+    "unit": "m.j.",
+    "unitPrice": "Cena za m.j.",
+    "total": "Celkem"
+  },
+
+  "note": {
+    "legend": "Poznámka",
+    "label": "Text nad položkami",
+    "placeholder": "Faktura je za leden 2026"
+  },
+
+  "preview": {
+    "invoiceTitle": "Faktura",
+    "supplier": "Dodavatel",
+    "customer": "Odběratel",
+    "contactInfo": "Kontaktní údaje",
+    "issueDate": "Datum vystavení:",
+    "dueDate": "Datum splatnosti:",
+    "bankAccount": "Bankovní účet",
+    "symbol": "Symbol",
+    "variableSymbol": "variabilní:",
+    "constantSymbol": "konstantní:",
+    "paymentMethod": "Způsob platby",
+    "itemDescription": "Označení dodávky",
+    "itemQuantity": "Počet",
+    "itemUnit": "m.j.",
+    "itemUnitPrice": "Cena za m.j.",
+    "itemTotal": "Celkem",
+    "totalDue": "Celkem k úhradě:",
+    "sectionId": "IDENTIFIKAČNÍ ÚDAJE",
+    "sectionPayment": "PLATEBNÍ ÚDAJE",
+    "sectionItems": "FAKTURUJEME VÁM",
+    "sectionSummary": "REKAPITULACE",
+    "currency": "Kč",
+    "transfer": "Převodem",
+    "cash": "Hotově",
+    "card": "Kartou"
+  }
+}
